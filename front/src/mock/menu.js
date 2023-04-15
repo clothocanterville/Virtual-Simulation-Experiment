@@ -149,6 +149,17 @@ const presetList = [
         renderMenu: true,
         permission: null,
         cacheable: true,
+      },
+      {
+        id: 62,
+        name: 'exp6_break_even_point',
+        title: '盈亏平衡法实验',
+        target: '_self',
+        path: '/exp6/break_even_point',
+        component: '@/pages/exp6/Exp6_break_even_point',
+        renderMenu: true,
+        permission: null,
+        cacheable: true,
       }
     ]
 
